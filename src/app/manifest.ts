@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "quadrembranco",
+    name: "quadrobranco",
     short_name: "qb",
     description: "cole qualquer coisa. seu feed visual sem fronteiras.",
     start_url: "/",

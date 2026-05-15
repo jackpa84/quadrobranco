@@ -4,13 +4,13 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], display: "swap" });
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://quadrembranco.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://quadrobranco.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "quadrembranco — cole qualquer coisa",
-    template: "%s · quadrembranco",
+    default: "quadrobranco — cole qualquer coisa",
+    template: "%s · quadrobranco",
   },
   description:
     "Vídeo, link, YouTube, imagem, texto. Um quadro em branco visual que vai além do Instagram.",
@@ -25,16 +25,16 @@ export const metadata: Metadata = {
   ],
   alternates: { canonical: "/" },
   openGraph: {
-    title: "quadrembranco — cole qualquer coisa",
+    title: "quadrobranco — cole qualquer coisa",
     description: "Cole qualquer coisa. O feed visual sem fronteiras.",
     url: SITE_URL,
-    siteName: "quadrembranco",
+    siteName: "quadrobranco",
     locale: "pt_BR",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "quadrembranco",
+    title: "quadrobranco",
     description: "Cole qualquer coisa. O feed visual sem fronteiras.",
   },
   robots: {

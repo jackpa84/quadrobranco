@@ -31,7 +31,7 @@ export function AuthShell({
             <div className="absolute inset-0 rounded-xl bg-[conic-gradient(from_120deg,#b48cff,#ff6ec7,#5ef0ff,#b48cff)]" />
             <div className="absolute inset-[3px] rounded-[10px] bg-black/70" />
           </div>
-          <span className="text-lg font-semibold tracking-tight">quadrembranco</span>
+          <span className="text-lg font-semibold tracking-tight">quadrobranco</span>
         </Link>
 
         <h1 className="text-4xl font-semibold tracking-tight">{title}</h1>

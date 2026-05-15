@@ -14,11 +14,11 @@ export default async function Landing() {
     // Supabase env not configured yet — continue to show landing
   }
 
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://quadrembranco.com";
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://quadrobranco.com";
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    name: "quadrembranco",
+    name: "quadrobranco",
     url: siteUrl,
     description:
       "Feed visual em mosaico onde você cola qualquer coisa: vídeo, link, YouTube, imagem, texto.",
@@ -42,7 +42,7 @@ export default async function Landing() {
       <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
         <div className="flex items-center gap-2">
           <Logo />
-          <span className="text-xl font-semibold tracking-tight">quadrembranco</span>
+          <span className="text-xl font-semibold tracking-tight">quadrobranco</span>
         </div>
         <div className="flex items-center gap-3">
           <Link href="/login">

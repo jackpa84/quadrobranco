@@ -44,7 +44,7 @@ export function FeedShell({
                 <div className="absolute inset-0 rounded-2xl bg-[conic-gradient(from_120deg,#b48cff,#ff6ec7,#5ef0ff,#b48cff)]" />
                 <div className="absolute inset-[3px] rounded-[12px] bg-black/70" />
               </div>
-              <span className="hidden text-lg font-semibold tracking-tight sm:inline">quadrembranco</span>
+              <span className="hidden text-lg font-semibold tracking-tight sm:inline">quadrobranco</span>
             </Link>
 
             <div className="ml-2 flex-1 max-w-md">
